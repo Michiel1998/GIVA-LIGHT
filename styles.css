@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EE7B44;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.time {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.passcode {
+    text-align: center;
+}
+
+#passcode {
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+.numeric-keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.numeric-button {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ok-button {
+    text-align: center;
+    margin-top: auto;
+    margin-right: 10px;
+}
+
+.ok-button button {
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-left: 10px;
+}
